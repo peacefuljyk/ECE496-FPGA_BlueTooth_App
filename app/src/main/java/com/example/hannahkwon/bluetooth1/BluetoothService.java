@@ -29,6 +29,7 @@ public class BluetoothService {
     // RFCOMM Protocol
     //TODO Should change UUID at here
     // MY_UUID is the Bluetooth Module's UUID string
+//    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 
     private ConnectThread mConnectThread;
